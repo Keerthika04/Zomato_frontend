@@ -1,0 +1,533 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+      font-family: "Merriweather", serif;
+      background-color: #ebf2ff;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   z-index: 999;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #ffffff;
+     width: 100%;
+     padding: 0 3%;
+     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 13%);
+ }
+
+ button {
+     background-color: transparent;
+     font-weight: bold;
+     color: white;
+     border: none;
+ }
+
+ #nav-img {
+     width: 100px;
+ }
+
+footer{
+    background-image: linear-gradient( 90deg, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+}
+
+.button{
+  background-image: linear-gradient( 90deg, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+  background-size: 200px;
+  padding: 2%;
+  border-radius:5px;
+  font-size: 13px;
+  transition: 0.5s;
+  margin: 5px;
+}
+
+.button:hover {
+  background-position: right;
+  transition: 0.5s;
+    cursor: pointer;
+}
+
+.body{
+  margin: 20% 4% 0 4%;
+}
+
+.s1{
+  display: flex;
+  position: relative;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.hero{
+  position: absolute;
+  z-index: 3;
+  width:100%;
+  border-radius: 5px;
+  margin-top: 6%;
+  box-shadow: 0 25px 50px -14px rgb(0 0 0 / 25%);
+}
+
+.heroshape{
+  position: absolute;
+  z-index: 2;
+  margin-top: 2%;
+  width: 98%;
+}
+
+.heropattern{
+  position: absolute;
+  width:100%;
+}
+
+.order_now{
+color: #1d3557;
+}
+
+#order_but{
+  margin-left: 3%;
+  margin-top: 4%;
+}
+
+.video_section{
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video_text{
+color: #1d3557;
+font-size: 1.2rem;
+text-align: center;
+font-weight: 300;
+}
+
+.menu{
+  text-align: center;
+  margin-top:4rem;
+}
+
+.tilted{
+  left: 0px;;
+ top: 0px;
+ height: 100%;
+ width: 100%;
+ transform: skewY(-5deg);
+ background-image: linear-gradient( 90deg, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+ z-index: -3;
+}
+
+.menu_title{
+  color: #1d3557;
+font-weight: 900;
+font-size: 1.6rem;
+margin-bottom: 1.6rem;
+}
+
+.below_menu{
+  margin: 4% 1%;
+  background-color: #fff;
+  border-radius: 5px;
+ box-shadow: 0 25px 50px -14px rgb(0 0 0 / 25%);
+}
+
+.menu_img{
+  margin: 4% 1%;
+  background-color: #fff;
+  border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+.menu_imgs{
+  border-radius: 5px 5px 0 0;
+}
+
+.card_texts{
+  color: #1d3557;
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: 300;
+  padding: 1.2rem 1rem;
+  line-height: 1.4rem;
+}
+
+.card_text{
+  font-size: 1rem;
+}
+
+.viewmore{
+width: 100%;
+font-family: "Merriweather", serif;
+font-weight: lighter;
+padding: 1.2rem 0 1.2rem 0;
+border-radius: 5px;
+font-size:100%;
+background-image: linear-gradient( 90deg, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+}
+
+.restarurants{
+  position: relative;
+  margin-top: 4rem;
+    color: #1d3557;
+}
+
+.restarurant_images{
+  padding-top: 1rem;
+}
+
+.restarurant_img{
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+}
+
+#restaurant1{
+  width:9rem;
+  height:5rem;
+}
+
+#restaurant2{
+  width: 11rem;
+  height: 6rem;
+  margin-left: 0.5rem;
+}
+
+#restaurant3{
+  width:11rem;
+  height:6rem;
+}
+
+#restaurant4{
+  width:9rem;
+  height:5rem;
+  margin-left: 0.5rem;
+}
+
+.bottom_img{
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.top_img{
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.stay-updated{
+  display: flex;
+  flex-direction: column;
+  color: #1d3557;
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+.email-form{
+  display: flex;
+align-items: center;
+}
+
+#email{
+  padding: 0.5rem;
+  background-color:#fcedf0; ;
+  border:1px solid #ee89a0 ;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+#update_button{
+  display: flex;
+  margin-left: 1rem;
+  padding: 0.6rem;
+  font-weight: normal;
+}
+
+.quote_section{
+  position: relative;
+  display: flex;
+  align-items: center;
+ margin-bottom: 50%;
+ margin-top: 50%
+}
+
+.quote{
+  position: absolute;
+  z-index: 1;
+  padding: 2rem;
+}
+
+#quote_text{
+  font-size: 128%;
+  color: #fff;
+  text-align: center;
+}
+
+.quote-img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  border-radius: 12px;
+  filter: blur(2px);
+}
+
+.footer_logo{
+filter: brightness(100);
+width: 19rem;
+}
+
+.footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 1rem;
+border-radius: 1rem 1rem 0 0;
+padding-bottom: 1rem;
+color: #fff;
+line-height: 1.5rem;
+}
+
+@media screen and (min-width:390px) {
+.order_now{
+  padding-top: 100%;
+  font-size: 1.2rem;
+  line-height: 40px;
+}
+.video_section{
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+}
+.video_text{
+  margin-top: 2%;
+  display: flex;
+}
+}
+
+@media screen and (min-width:768px) {
+#nav-img {
+    width: 120px;
+}
+.s1{
+display: flex;
+flex-direction: row-reverse;;
+width: 50%;
+}
+.order_now{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24% 0;
+}
+#order_but{
+padding: 3%;
+}
+.video_section{
+  display: flex;
+  margin-top: 13%;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.menu{
+  position: relative;
+}
+.tilted{
+  position: absolute;
+}
+.menu_title{
+font-size: 1.9rem;
+}
+.cards {
+  margin: 3rem 2rem 0.0rem 1.5rem;
+    display: flex;
+    width:94%;
+  }
+  .below_menu{
+    margin: 4% 1%;
+    background-color: #fff;
+    border-radius: 5px;
+   box-shadow: 0 25px 50px -14px rgb(0 0 0 / 25%);
+  }
+  .menu_img{
+    margin:1% 2% 6% 2%;;
+    background-color: #fff;
+    border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  }
+  .viewmore{
+  width: 100%;
+  font-family: "Merriweather", serif;
+  font-weight: lighter;
+  padding: 1.2rem 0 1.2rem 0;
+  border-radius: 5px;
+  font-size:100%;
+  transition: 0.5s;
+background-image: none;
+  }
+
+  .viewmore:hover{
+    width:40%;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #e2296d;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: white;
+  }
+  .restarurants {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+    }
+    #restaurant1{
+      margin-left: 0rem;
+    }
+#stay-updated-text{
+  font-size: 2rem;
+}
+.stay-updated{
+display: flex;
+justify-content: center;
+margin: 7% 19%;;
+}
+#email{
+  width: 20rem;
+}
+#quote_text{
+  font-size: 3rem;;
+}
+  .footer_logo{
+  width: 19rem;
+  }
+
+  .footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 0rem;
+  justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  #nav-img {
+      width: 150px;
+  }
+  .button{
+    padding: 16px 20px;
+    font-size: 1.3rem;
+  }
+  .nav-but{
+    font-size: 1.2rem;
+  }
+  .body{
+    margin: 16% 4% 0 4%;
+  }
+  .order_text{
+    font-size: 3rem;
+    line-height: 50px;
+  }
+  .video_section{
+  margin: 10% 2%;
+  }
+  .menu_title{
+  font-size: 3rem;
+  }
+  .cards {
+    margin: 3rem 3rem 2.5rem 2rem;
+}
+.order_now{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10% 0;
+}
+#restaurant1 {
+  width: 14rem;
+  height: 9rem;
+  }
+#restaurant2 {
+  width: 16rem;
+  height: 11rem
+  }
+#restaurant3 {
+  width: 16rem;
+  height: 11rem
+    }
+#restaurant4 {
+  width: 14rem;
+  height: 9rem
+    }
+    #email {
+    padding: 0.7rem;
+  }
+  .stay-updated{
+  margin: 7% 22%;
+  }
+  #update_button{
+font-size: 1rem;
+  }
+  #stay-updated-text{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width:1161px) {
+  .video_section{
+  margin: 14% 4%;
+  }
+  .order_text{
+    font-size: 3.5rem;
+    line-height: 50px;
+  }
+  .footer{
+    font-size: 1.2rem;
+  }
+  #restaurant1 {
+    width: 18rem;
+    height: 11rem;
+  }
+  #restaurant2 {
+    width: 20rem;
+    height: 14rem;
+  }
+  #restaurant3 {
+    width: 20rem;
+    height: 14rem;
+  }
+  #restaurant4 {
+    width: 18rem;
+    height: 11rem;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .video_section{
+display: flex;
+flex-direction: column;
+margin-top: 18%;
+margin:18% 20% 8% 20% ;
+  }
+  .video_text{
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .order_now{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24% 0;
+  }
+  .stay-updated{
+margin: 10% 29%;
+  }
+}
